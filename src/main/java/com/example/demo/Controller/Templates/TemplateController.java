@@ -11,8 +11,5 @@ public class TemplateController {
     public String getLogin(){
         return "login";
     }
-    @GetMapping("Estates")
-    public String getEstates(){
-        return "Estates";
-    }
+
 }
